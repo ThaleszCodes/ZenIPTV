@@ -7,8 +7,8 @@ const plans = [
     {
       name: '1 Tela',
       prices: {
-          monthly: '20',
-          quarterly: '70',
+          monthly: '25',
+          quarterly: '75',
       },
       features: ['Qualidade HD e FHD', 'Acesso a todo o catálogo', 'Suporte Básico'],
       popular: false,
@@ -16,8 +16,8 @@ const plans = [
     {
       name: '2 Telas',
       prices: {
-        monthly: '25',
-        quarterly: '75',
+        monthly: '30',
+        quarterly: '80',
       },
       features: ['Qualidade até 4K', 'Acesso a todo o catálogo', 'Suporte Prioritário'],
       popular: true,
@@ -72,7 +72,7 @@ const PricingCard: React.FC<{ plan: typeof plans[0] }> = ({ plan }) => {
 
 const Pricing: React.FC = () => {
     return (
-        <section id="planos" className="py-20">
+        < section id="planos" className="py-20">
             <div className="container mx-auto px-6">
                 <motion.div
                     className="text-center mb-12"
